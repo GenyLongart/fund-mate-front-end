@@ -88,9 +88,9 @@ const Post = () => {
                     </div>
 
                     {store.user.user && store.loanAdvertisement.lender.user.userID === store.user.user.userID ? "" : 
-                    <footer className='text-center post_footer pb-3'>
+                    <footer className='text-center post_footer pt-3 pb-3'>
                         <Link to={"/post/" + postId + "/proposal"} >
-                            <button type="button" className="btn btn-primary w-75 py-2">Solicitar crédito</button>
+                            <button type="button" className="btn btn-primary w-50 py-2">Solicitar crédito</button>
                         </Link>
                     </footer>}
 

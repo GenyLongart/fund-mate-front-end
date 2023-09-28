@@ -52,7 +52,7 @@ const LoanForm = () => {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="interest" className="form-label text-white">Tasa de interés<span className='text-danger'>*</span></label>
-                        <input type="text" {...register("interest", { required: 'Debe ingresar una taza de interés' })} className="form-control bg-transparent text-light" id="interest" />
+                        <input type="text" {...register("interest", { required: 'Debe ingresar una tasa de interés' })} className="form-control bg-transparent text-light" id="interest" />
                         <p className='text-danger'>{errors.interest?.message}</p>
                     </div>
                     {/* <div className="mb-3">
